@@ -11,6 +11,12 @@ public class OperazioniTests
     {
         Assert.Equal(5, op.Somma(2, 3));
     }
+    [Fact]
+    public void Sottrai_DueNumeri_RestituisceLaDifferenza()
+    {
+        Assert.Equal(4, op.Sottrai(7, 3));
+    }
+
 }
 
 
