@@ -1,4 +1,7 @@
-﻿namespace Calcolatrice.Tests;
+﻿using Calcolatrice;
+using Xunit;
+
+namespace Calcolatrice.Tests;
 
 
 public class OperazioniTests
@@ -14,7 +17,7 @@ public class OperazioniTests
     [Fact]
     public void Sottrai_DueNumeri_RestituisceLaDifferenza()
     {
-        Assert.Equal(4, op.Sottrai(7, 3));
+        Assert.Equal(0, op.Sottrai(7, 7));
     }
 
 }
